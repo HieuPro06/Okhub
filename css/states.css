@@ -2,8 +2,15 @@
     padding: 0;
     margin: 0;
 }   
+body{
+    display: flex;
+}
+.wrap{
+    width: 1920px;
+    margin: 0 auto;
+}
 .header{
-    width: 1600px;
+    width: 100%;
     height: 50px;
     background: #00B8C4;
     position: relative;

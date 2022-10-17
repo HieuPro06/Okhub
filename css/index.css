@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     position: relative;
 }
+.wrap{
+    width: 1349px;
+    margin: 0 auto;
+}
 .header{
     font-family: 'Poppins', sans-serif;
-    width: 1600px;
+    width: 100%;
     height: 50px;
     background-color: #00B8C4;
     color: #FFFFFF;
@@ -18,11 +24,15 @@ body{
     font-style: normal;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center ;
+}
+.list__icon{
+    display: none;
 }
 .taskbar{
     height: 100px;
     display: flex;
+    box-shadow: 0 0 8px 0 #ccc;
 }
 .taskbar__content{
     width: 1230px;
@@ -91,7 +101,8 @@ body{
 }
 .banner{
     position: relative;
-    width: 1600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     height: 656px;
     background-image: url(../img/img/Rectangle\ 102.png);
 }
@@ -155,6 +166,7 @@ body{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .option__item{
     position: relative;
@@ -296,6 +308,9 @@ body{
     top: 66.17px;
     left: 69.5px;
 }
+.option__icons{
+    display: none;
+}
 .hometown__search{
     display: flex;
     width: 100%;
@@ -352,7 +367,17 @@ body{
 }
 .hometown__title span{
     position: absolute;
-    left: 690px;
+    left: 532px;
+}
+.hometown__select{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.hometown__head{
+    width: 1290px;
+    margin: 0 auto;
 }
 .hometown__decorate{
     height: 133.25px;
@@ -360,43 +385,43 @@ body{
 }
 .classic__1{
     position: absolute;
-    top: 100.5px;
-    left: 720px;    
+    top: 33.5px;
+    left: 557px; 
 }
 .classic__2{
     position: absolute;
-    top: 90.74px;
-    left: 790.33px;
+    top: 21.74px;
+    left: 626.33px;
 }
 .classic__3{
     position: absolute;
-    top: 100.5px;
-    left: 819px;
+    top: 33.5px;
+    left: 654px;
 }
 .classic__4{
     position: absolute;
-    top: 90.51px;
-    left: 792.18px;
+    top: 20.51px;
+    left: 626.18px;
 }
 .classic__5{
     position: absolute;
-    top: 90.51px;
-    left: 804.66px;
+    top: 21.51px;
+    left: 641.66px;
 }
 .classic__6{
     position: absolute;
-    top: 103.25px;
-    left: 807.44px;
+    top: 37.25px;
+    left: 643.44px;
 }
 .classic__7{
     position: absolute;
-    top: 108.74px;
-    left: 799.24px;
+    top: 42.74px;
+    left: 635.24px;
 }
 .classic__8{
     position: absolute;
-    top: 103.25px;
-    left: 788px;
+    top: 37.25px;
+    left: 623px;
 }
 .hometown__selections{
     display: flex;
@@ -825,7 +850,7 @@ body{
     cursor: pointer;
 }
 .advertise{
-    /* width: 1600px; */
+    margin: 0 auto;
     width: 100%;
     height: 431px;  
     margin-top: 176px;

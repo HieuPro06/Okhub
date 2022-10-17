@@ -1,0 +1,132 @@
+@media (max-width : 414px){
+    body{
+        width: 414px;
+    }
+    .wrap{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+        height: 27px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .taskbar__list{
+        display: none;
+        position: absolute;
+    }
+    .list__icon{
+        display: block;
+    }
+    .list__icon:hover .taskbar__list{
+        display: block;
+    }
+    .taskbar__language{
+        display: none;
+    }
+    .list__nav{
+        position: relative;
+        order: -1;
+        padding-left: 25.67px;
+    }
+    .taskbar__content{
+        justify-content: initial;
+    }
+    .taskbar__logo{
+        margin-left: 100.67px;
+    }
+    .taskbar__search{
+        padding: 0 10px;
+    }
+    .taskbar__sublist{
+        margin-left: 60px;
+    }
+    .banner{
+        width: 414px;
+        height: 289px;
+    }
+    .banner__title{
+        width: 175px;
+        height: 80px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFFFFF;
+        font-family: 'Rufina',sans-serif;
+        left: 24px;
+        top: 50px;
+    }
+    .banner__text{
+        width: 280px;
+        height: 48px;
+        left: 26px;
+        top: 145px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .banner__btn{
+        width: 100px;
+        height: 30px;
+        left: 26px;
+        top: 230px;
+    }
+    .banner__btn__text{
+        width: 60px;
+        height: 24px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .option__list{
+        justify-content: center;
+    }
+    .option__item{
+        width: 175px;
+        height: 202px;
+    }
+    .option__item__title{
+        width: 175px;
+        height: 202px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .option__item__description{
+        width: 151px;
+        height: 72px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #171717;
+        opacity: 0.7;
+    }
+    .option__item__img{
+        display: none;
+    }
+    .option__icons{
+        display: inline-block;
+    }
+    .btn__icon{
+        width: 8px;
+        height: 8px;
+    }
+    .form{
+        width: 366px;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+    }
+}
